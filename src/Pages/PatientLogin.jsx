@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function PatientLogin() {
   return (
-    <div className='container'>
+    <div className='container my-5'>
         <form>
             <div className="mb-3">
                 <label for="exampleInputEmail1" className="form-label">Email address</label>
@@ -10,12 +10,12 @@ export default function PatientLogin() {
                 <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
             </div>
             <div className="mb-3">
-                <label for="exampleInputPassword1" className="form-label">Password</label>
-                <input type="password" className="form-control" id="exampleInputPassword1" />
+                <label for="exampleInputPassword1" className="form-label">Identity</label>
+                <input type="number" className="form-control" id="exampleInputPassword1" />
             </div>
-            <div className="mb-3 form-check">
-                <input type="checkbox" className="form-check-input" id="exampleCheck1" />
-                <label className="form-check-label" for="exampleCheck1">Check me out</label>
+            <div className="mb-3">
+                <label for="exampleInputPassword1" className="form-label">Phone Number</label>
+                <input type="tel" name="phone" id="exampleInputPassword1" className="form-label" pattern="[+]{1}[0-9]{11,14}" required />
             </div>
             <button type="submit" className="btn btn-primary">Submit</button>
         </form>

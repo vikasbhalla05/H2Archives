@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function DoctorLogin() {
+export default function InputForm() {
   return (
     <div className='container my-5'>
         <form>
@@ -21,7 +21,7 @@ export default function DoctorLogin() {
                 <label for="exampleInputPassword1" className="form-label">Password</label>
                 <input type="password" className="form-control" id="exampleInputPassword1" />
             </div>
-            <button type="submit" className="btn btn-primary">Submit</button>
+            <button type="submit" className="btn btn-primary">Add Patient</button>
         </form>
     </div>
   )
