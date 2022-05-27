@@ -17,7 +17,7 @@ export default function DoctorDash() {
           <InputForm className='my-5'/>
         </div>
         <div className="container m-l-30">
-          <h1>All records</h1><span className='btn btn-primary' >Create New</span>
+          <h1>All records</h1>
           <PatientData />
         </div>
       </div>
